@@ -24,10 +24,10 @@ project "ImGui"
     filter "system:windows"
         systemversion "latest"
         
-    filter "configuration:Debug"
+    filter "configurations:Debug"
         runtime "Debug"
         symbols "on"
 
-    filter "configuration:Release"
+    filter "configurations:Release"
         runtime "Release"
         optimize "on"
